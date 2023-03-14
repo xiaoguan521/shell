@@ -19,7 +19,7 @@ services:
             - /dev/snd
         environment:
             - VNC_PASSWD=xiaochen
-            - GEOMETRY=1920x1200
+            - GEOMETRY=1920x1080
             - DEPTH=24
             - 'ALSADEV=hw:2,0'
         volumes:
